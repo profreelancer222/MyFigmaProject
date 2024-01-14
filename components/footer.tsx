@@ -23,7 +23,7 @@ export default function footer() {
                         <div className="text-neutral-600 text-base font-normal font-['Rubik']">Hire</div>
                         <div className="text-neutral-600 text-base font-normal font-['Rubik']">Training</div>
                         <div className="text-neutral-600 text-base font-normal font-['Rubik']">Scaling</div>
-                    </div>
+                    </div>   
                     <div className="grow shrink basis-0 flex-col justify-start items-start gap-2.5 inline-flex">
                         <div className="text-indigo-900 text-lg font-medium font-['Rubik']">Bussiness</div>
                         <div className="text-neutral-600 text-base font-normal font-['Rubik']">Hire</div>

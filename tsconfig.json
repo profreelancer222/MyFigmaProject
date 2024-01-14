@@ -20,7 +20,8 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
@@ -28,6 +29,10 @@
     "**/*.ts",
     "**/*.tsx"
   ],
+  "paths": {
+    "@/*": ["./src/*"],
+    "@components/*": ["./src/components/*"],
+  },
   "exclude": [
     "node_modules"
   ]

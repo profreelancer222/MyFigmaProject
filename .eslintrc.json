@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "env": {
+      "browser": true,
+      "es6": true
+  },
+  "extends": "next/core-web-vitals",
+  "rules": {
+      "curly": "error",
+       "dot-notation": "error",
+       "no-undef-init": "error",
+       "no-useless-rename": "error",
+       "no-useless-return": "error",
+       "no-var": "error"
+    }
+}

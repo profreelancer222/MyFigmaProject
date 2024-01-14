@@ -18,6 +18,6 @@ export default function RootLayout({
     <html lang="en">
       <body><GoogleOAuthProvider clientId="986706595817-k8m2oik51jbesdhclgs264hbqkrhkkc9.apps.googleusercontent.com">{children}</GoogleOAuthProvider></body>
     </html>
-     
+    
   )
 }
