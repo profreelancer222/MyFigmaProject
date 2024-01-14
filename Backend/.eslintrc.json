@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "plugin:compat/recommended"],
+    "rules": {
+        "curly": "error",
+         "dot-notation": "error",
+         "no-undef-init": "error",
+         "no-useless-rename": "error",
+         "no-useless-return": "error",
+         "no-var": "error",
+         "object-shorthand": "error",
+         "one-var": [ "error", { "initialized": "never", "uninitialized": "always" } ],
+         "prefer-const": "error",
+         "prefer-template": "error",
+         "array-bracket-spacing": [ "error", "always" ],
+         "generator-star-spacing": [ "error", "both" ],
+         "space-before-function-paren": [ "error", "always" ],
+         "yield-star-spacing": [ "error", "both" ]
+      } 
+}
