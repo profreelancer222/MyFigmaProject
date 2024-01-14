@@ -10,7 +10,6 @@ export interface ButtonProps {
     height?: string,
     onClick?: () => any,
 }
-
 const textColors = {
     primary: {
         full: "text-slate-200",
@@ -25,6 +24,8 @@ const textColors = {
         text: "text-sky-700",
     },
 }
+
+
 
 const backgroundColors = {
     primary: {
